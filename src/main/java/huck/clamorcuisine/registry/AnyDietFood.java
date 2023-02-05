@@ -1,0 +1,29 @@
+package huck.clamorcuisine.registry;
+
+import huck.clamorcuisine.ClamorCuisine;
+import huck.clamorcuisine.shared.FoodItemSettings;
+import huck.clamorcuisine.shared.FoodValues;
+import net.minecraft.item.Item;
+import net.minecraft.util.Identifier;
+import net.minecraft.util.registry.Registry;
+
+public class AnyDietFood {
+	// Ingredience
+	public static final Item CHEESE = new Item(new FoodItemSettings(FoodValues.SNACK));
+
+	// General
+	public static final Item FRENCH_TOAST = new Item(new FoodItemSettings(FoodValues.LIGHT_MEAL));
+	public static final Item STUFFED_MUSHROOM = new Item(new FoodItemSettings(FoodValues.LIGHT_MEAL));
+	public static final Item DEVILED_EGG = new Item(new FoodItemSettings(FoodValues.SNACK));
+	public static final Item DONUT = new Item(new FoodItemSettings(FoodValues.SNACK));
+	public static final Item MUSHROOM_OMELET = new Item(new FoodItemSettings(FoodValues.LIGHT_MEAL));
+
+	public static void initializeItems() {
+		Registry.register(Registry.ITEM, new Identifier(ClamorCuisine.MOD_ID, "cheese"), CHEESE);
+		Registry.register(Registry.ITEM, new Identifier(ClamorCuisine.MOD_ID, "french_toast"), FRENCH_TOAST);
+		Registry.register(Registry.ITEM, new Identifier(ClamorCuisine.MOD_ID, "stuffed_mushroom"), STUFFED_MUSHROOM);
+		Registry.register(Registry.ITEM, new Identifier(ClamorCuisine.MOD_ID, "deviled_egg"), DEVILED_EGG);
+		Registry.register(Registry.ITEM, new Identifier(ClamorCuisine.MOD_ID, "donut"), DONUT);
+		Registry.register(Registry.ITEM, new Identifier(ClamorCuisine.MOD_ID, "mushroom_omelet"), MUSHROOM_OMELET);
+	}
+}
