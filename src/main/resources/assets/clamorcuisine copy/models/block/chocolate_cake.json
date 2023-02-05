@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:block/cube_all",
-  "textures": {
-    "all": "clamorcuisine:block/chocolate_cake"
-  }
-}
