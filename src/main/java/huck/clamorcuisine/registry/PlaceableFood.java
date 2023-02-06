@@ -1,6 +1,7 @@
 package huck.clamorcuisine.registry;
 
 import huck.clamorcuisine.ClamorCuisine;
+import huck.clamorcuisine.shared.ClamorItemGroup;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.minecraft.block.Block;

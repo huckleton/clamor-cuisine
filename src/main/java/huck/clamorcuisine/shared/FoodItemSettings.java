@@ -1,6 +1,5 @@
 package huck.clamorcuisine.shared;
 
-import huck.clamorcuisine.registry.ClamorItemGroup;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 
 public class FoodItemSettings extends FabricItemSettings {

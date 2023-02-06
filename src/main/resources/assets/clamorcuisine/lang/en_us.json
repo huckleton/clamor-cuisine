@@ -32,5 +32,10 @@
 	"item.clamorcuisine.mutton_sandwich": "Mutton Sandwich",
 	"item.clamorcuisine.chicken_sandwich": "Chicken Sandwich",
 	"item.clamorcuisine.rabbit_sandwich": "Rabbit Sandwich",
-	"item.clamorcuisine.fish_sandwich": "Fish Sandwich"
+	"item.clamorcuisine.fish_sandwich": "Fish Sandwich",
+
+	"item.clamorcuisine.silly_straw": "Silly Straw",
+	"item.clamorcuisine.blood_bag": "Blood Bag",
+
+	"death.attack.clamor_bleed": "%s was exsanguinated"
 }

@@ -9,7 +9,8 @@ import huck.clamorcuisine.registry.AnyDietFood;
 import huck.clamorcuisine.registry.CarnivoreFood;
 import huck.clamorcuisine.registry.HerbivoreFood;
 import huck.clamorcuisine.registry.PlaceableFood;
-import huck.clamorcuisine.registry.StatusEffects;
+import huck.clamorcuisine.registry.ClamorStatusEffects;
+import huck.clamorcuisine.registry.VampireItems;
 
 public class ClamorCuisine implements ModInitializer {
 	public static final Logger LOGGER = LoggerFactory.getLogger("clamorcuisine");
@@ -19,10 +20,11 @@ public class ClamorCuisine implements ModInitializer {
 	public void onInitialize() {
 		LOGGER.info("Hello Fabric world!");
 
-		StatusEffects.initializeEffects();
+		ClamorStatusEffects.initializeEffects();
 		PlaceableFood.initializeItems();
 		HerbivoreFood.initializeItems();
 		CarnivoreFood.initializeItems();
 		AnyDietFood.initializeItems();
+		VampireItems.initializeItems();
 	}
 }

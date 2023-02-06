@@ -6,7 +6,7 @@ import net.minecraft.entity.effect.StatusEffect;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 
-public class StatusEffects {
+public class ClamorStatusEffects {
 	public static final StatusEffect BLOOD_LOSS = new BloodLossStatusEffect();
 
 	public static void initializeEffects() {

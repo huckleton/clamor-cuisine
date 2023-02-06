@@ -1,6 +1,7 @@
-package huck.clamorcuisine.registry;
+package huck.clamorcuisine.shared;
 
 import huck.clamorcuisine.ClamorCuisine;
+import huck.clamorcuisine.registry.PlaceableFood;
 import net.fabricmc.fabric.api.client.itemgroup.FabricItemGroupBuilder;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
