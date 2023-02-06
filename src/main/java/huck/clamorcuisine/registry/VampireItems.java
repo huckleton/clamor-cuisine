@@ -23,5 +23,8 @@ public class VampireItems {
 	public static void initializeItems() {
 		Registry.register(Registry.ITEM, new Identifier(ClamorCuisine.MOD_ID, "silly_straw"), SILLY_STRAW);
 		Registry.register(Registry.ITEM, new Identifier(ClamorCuisine.MOD_ID, "blood_bag"), BLOOD_BAG);
+		Registry.register(Registry.ITEM, new Identifier(ClamorCuisine.MOD_ID, "black_pudding"), BLACK_PUDDING);
+		Registry.register(Registry.ITEM, new Identifier(ClamorCuisine.MOD_ID, "blood_custard_pie"), BLOOD_CUSTARD_PIE);
+		Registry.register(Registry.ITEM, new Identifier(ClamorCuisine.MOD_ID, "blood_stew"), BLOOD_STEW);
 	}
 }

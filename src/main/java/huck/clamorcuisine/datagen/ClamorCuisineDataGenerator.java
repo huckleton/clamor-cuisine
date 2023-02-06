@@ -7,6 +7,6 @@ public class ClamorCuisineDataGenerator implements DataGeneratorEntrypoint {
 
 	@Override
 	public void onInitializeDataGenerator(FabricDataGenerator fabricDataGenerator) {
-		// fabricDataGenerator.addProvider(ClamorCuisineModelGenerator::new);
+		fabricDataGenerator.addProvider(ClamorCuisineModelGenerator::new);
 	}
 }
