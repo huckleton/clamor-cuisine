@@ -8,7 +8,7 @@
       "item": "minecraft:dried_kelp"
     },
     {
-      "item": "c:cooked_fish"
+      "tag": "c:cooked_fish"
     }
   ],
   "result": {

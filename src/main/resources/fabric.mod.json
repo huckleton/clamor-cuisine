@@ -32,6 +32,6 @@
 		"fabric-api": "*"
 	},
 	"recommends": {
-		"create": ">=0.5.0"
+		"create": "*"
 	}
 }

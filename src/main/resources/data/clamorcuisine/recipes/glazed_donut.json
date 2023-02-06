@@ -2,8 +2,7 @@
   "type": "create:filling",
   "ingredients": [
     {
-      "fluid": "c:milk",
-      "nbt": {},
+      "fluidTag": "c:milk",
       "amount": 27000
     },
     {
@@ -12,7 +11,7 @@
   ],
   "results": [
     {
-      "item": "clamorcuisine:chocolate_donut"
+      "item": "clamorcuisine:glazed_donut"
     }
   ]
 }

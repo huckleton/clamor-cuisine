@@ -8,16 +8,16 @@
       "item": "minecraft:potato"
     },
     "Y": {
-      "item": "minecraft:steak"
+      "item": "minecraft:cooked_beef"
     }
   },
   "pattern": [
     "  Y",
     " X ",
-    "#  "
+    "## "
   ],
   "result": {
-    "count": 4,
+    "count": 2,
     "item": "clamorcuisine:potato_kebab"
   }
 }

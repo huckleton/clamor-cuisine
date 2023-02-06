@@ -2,7 +2,7 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:blood_bag"
+      "item": "clamorcuisine:blood_bag"
     },
     {
       "item": "minecraft:wheat"
