@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredients": [
+    {
+      "item": "minecraft:milk"
+    }
+  ],
+  "result": "clamorcuisine:cheese"
+}

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:bread"
+    },
+    {
+      "item": "minecraft:cooked_chicken"
+    },
+    {
+      "item": "clamorcuisine:green_herb"
+    }
+  ],
+  "result": {
+    "item": "clamorcuisine:chicken_sandwich",
+    "count": 2
+  }
+}
+

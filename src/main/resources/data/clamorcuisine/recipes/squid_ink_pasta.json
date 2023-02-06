@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:wheat"
+    },
+    {
+      "item": "minecraft:ink_sac"
+    },
+    {
+      "item": "clamorcuisine:purple_herb"
+    },
+    {
+      "item": "clamorcuisine:green_herb"
+    }
+  ],
+  "result": {
+    "item": "clamorcuisine:squid_ink_pasta",
+    "count": 1
+  }
+}
+

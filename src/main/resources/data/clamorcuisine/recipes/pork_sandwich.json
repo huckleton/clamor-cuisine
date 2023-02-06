@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:bread"
+    },
+    {
+      "item": "minecraft:cooked_porkchop"
+    },
+    {
+      "item": "clamorcuisine:green_herb"
+    }
+  ],
+  "result": {
+    "item": "clamorcuisine:pork_sandwich",
+    "count": 2
+  }
+}
+

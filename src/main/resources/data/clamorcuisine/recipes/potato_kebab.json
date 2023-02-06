@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "#": {
+      "item": "minecraft:stick"
+    },
+    "X": {
+      "item": "minecraft:potato"
+    },
+    "Y": {
+      "item": "minecraft:steak"
+    }
+  },
+  "pattern": [
+    "  Y",
+    " X ",
+    "#  "
+  ],
+  "result": {
+    "count": 4,
+    "item": "clamorcuisine:potato_kebab"
+  }
+}

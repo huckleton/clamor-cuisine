@@ -33,4 +33,9 @@ public class ContainerFoodItem extends ClamorCuisineItem {
 			return stack;
 		}
 	}
+
+	@Override
+	public ItemStack getRecipeRemainder(ItemStack stack) {
+		return new ItemStack(this.returnItem);
+	}
 }

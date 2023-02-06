@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:egg"
+    },
+    {
+      "item": "minecraft:carrot"
+    },
+    {
+      "item": "minecraft:bowl"
+    },
+    {
+      "item": "clamorcuisine:green_herb"
+    }
+  ],
+  "result": {
+    "item": "clamorcuisine:egg_salad",
+    "count": 1
+  }
+}
+

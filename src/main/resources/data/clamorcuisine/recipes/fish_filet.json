@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "clamorcuisine:green_herb"
+    },
+    {
+      "item": "minecraft:wheat"
+    },
+    {
+      "tag": "c:cooked_fish"
+    }
+  ],
+  "result": {
+    "item": "clamorcuisine:fish_filet",
+    "count": 1
+  }
+}
+

@@ -20,10 +20,10 @@ public class AnyDietFood {
 	public static final Item SQUID_INK_PASTA = new Item(new FoodItemSettings(FoodValues.MEAL));
 
 	// Donuts
-	public static final Item DONUT = new Item(new FoodItemSettings(FoodValues.SNACK));
-	public static final Item CHOCOLATE_DONUT = new Item(new FoodItemSettings(FoodValues.SNACK));
-	public static final Item GLAZED_DONUT = new Item(new FoodItemSettings(FoodValues.SNACK));
-	public static final Item SWEET_BERRY_DONUT = new Item(new FoodItemSettings(FoodValues.SNACK));
+	public static final Item DONUT = new Item(new FoodItemSettings(FoodValues.SMALL_SNACK));
+	public static final Item CHOCOLATE_DONUT = new Item(new FoodItemSettings(FoodValues.INGREDIENT_DONUT));
+	public static final Item GLAZED_DONUT = new Item(new FoodItemSettings(FoodValues.INGREDIENT_DONUT));
+	public static final Item SWEET_BERRY_DONUT = new Item(new FoodItemSettings(FoodValues.INGREDIENT_DONUT));
 
 	public static void initializeItems() {
 		Registry.register(Registry.ITEM, new Identifier(ClamorCuisine.MOD_ID, "cheese"), CHEESE);
