@@ -1,10 +1,10 @@
 
 package huck.clamorcuisine.datagen;
 
-import huck.clamorcuisine.registry.AnyDietFood;
-import huck.clamorcuisine.registry.CarnivoreFood;
-import huck.clamorcuisine.registry.HerbivoreFood;
-import huck.clamorcuisine.registry.PlaceableFood;
+// import huck.clamorcuisine.registry.AnyDietFood;
+// import huck.clamorcuisine.registry.CarnivoreFood;
+// import huck.clamorcuisine.registry.HerbivoreFood;
+// import huck.clamorcuisine.registry.PlaceableFood;
 import huck.clamorcuisine.registry.VampireItems;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataGenerator;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricModelProvider;

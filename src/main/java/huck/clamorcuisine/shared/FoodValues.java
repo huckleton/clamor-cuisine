@@ -12,7 +12,7 @@ public record FoodValues(int hunger, float saturationModifier) {
 	public static final FoodValues MEAL = new FoodValues(8, 0.8f);
 	public static final FoodValues LARGE_MEAL = new FoodValues(10, 0.6f);
 	
-	public static final FoodValues BLOOD_BAG = new FoodValues(3, 0.2f);
+	public static final FoodValues BLOOD_BAG = new FoodValues(2, 0.2f);
 
 	public static FoodComponent generateComponent(FoodValues foodValues, boolean meat, boolean snack) {
 		Builder foodComponent = new FoodComponent.Builder();

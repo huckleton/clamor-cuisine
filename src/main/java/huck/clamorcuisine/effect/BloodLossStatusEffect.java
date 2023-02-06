@@ -3,8 +3,8 @@ package huck.clamorcuisine.effect;
 import com.google.common.collect.ArrayListMultimap;
 import com.google.common.collect.Multimap;
 
-import huck.clamorcuisine.ClamorCuisine;
 import huck.clamorcuisine.registry.ClamorStatusEffects;
+import huck.clamorcuisine.shared.BleedDamageSource;
 import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.attribute.AttributeContainer;
 import net.minecraft.entity.attribute.EntityAttribute;
@@ -33,7 +33,7 @@ public class BloodLossStatusEffect extends StatusEffect {
 		entity.setHealth(entity.getHealth());
 		StatusEffectInstance bloodLoss = entity.getStatusEffect(ClamorStatusEffects.BLOOD_LOSS);
 		int timeLeft = bloodLoss.getDuration();
-		// level "Downgrades" over time
+		// level "downgrades" over time
 		if (timeLeft < DURATION_PER_LEVEL * amplifier) {
 			entity.removeStatusEffect(ClamorStatusEffects.BLOOD_LOSS);
 			entity.addStatusEffect(new StatusEffectInstance(ClamorStatusEffects.BLOOD_LOSS, timeLeft, amplifier - 1));
@@ -42,13 +42,16 @@ public class BloodLossStatusEffect extends StatusEffect {
 
 	@Override
 	public void onApplied(LivingEntity entity, AttributeContainer attributes, int amplifier) {
-		ClamorCuisine.LOGGER.info(String.valueOf(entity.getMaxHealth()));
 		float capHealth = -4.0f * (amplifier + 1);
 		EntityAttributeModifier healthModifier = new EntityAttributeModifier("blood_loss", capHealth, EntityAttributeModifier.Operation.ADDITION);
 
 		modifiers = ArrayListMultimap.create();
 		modifiers.put(EntityAttributes.GENERIC_MAX_HEALTH, healthModifier);
 		attributes.addTemporaryModifiers(modifiers);
+
+		if (attributes.getValue(EntityAttributes.GENERIC_MAX_HEALTH) < 1.5f) {
+			entity.damage(BleedDamageSource.BLEED_DAMAGE, 5.0f);
+		}
 	}
 
 	@Override

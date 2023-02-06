@@ -21,7 +21,8 @@ import net.minecraft.world.World;
 
 public class SillyStrawItem extends ClamorCuisineItem {
 
-	private int maxUseTime = 72000;
+	private final int MAX_USE_TIME = 72000;
+	private final int HUNGER_COST = 5;
 
 	public SillyStrawItem(Settings settings) {
 		super(settings);
@@ -35,23 +36,30 @@ public class SillyStrawItem extends ClamorCuisineItem {
 
 	@Override
 	public void onStoppedUsing(ItemStack stack, World world, LivingEntity user, int remainingUseTicks) {
-		if (remainingUseTicks > this.maxUseTime - 20) {
+		if (remainingUseTicks > this.MAX_USE_TIME - 20) {
 			return;
 		}
-		if (user instanceof PlayerEntity playerEntity && (!playerEntity.isCreative())) {
-			StatusEffectInstance bloodLoss = user.getStatusEffect(ClamorStatusEffects.BLOOD_LOSS);
-
-			int newBleedLevel = 0;
-			int newTime = BloodLossStatusEffect.DURATION_PER_LEVEL;
-			if (bloodLoss != null) {
-				newBleedLevel = bloodLoss.getAmplifier() + 1;
-				newTime += bloodLoss.getDuration();
+		if (user instanceof PlayerEntity playerEntity) {
+			if (playerEntity.getHungerManager().getFoodLevel() < HUNGER_COST) {
+				return;
+			}
+			if (!playerEntity.isCreative()) {
+				StatusEffectInstance bloodLoss = user.getStatusEffect(ClamorStatusEffects.BLOOD_LOSS);
+	
+				int newBleedLevel = 0;
+				int newTime = BloodLossStatusEffect.DURATION_PER_LEVEL;
+				if (bloodLoss != null) {
+					newBleedLevel = bloodLoss.getAmplifier() + 1;
+					newTime += bloodLoss.getDuration();
+				}
+	
+				playerEntity.addStatusEffect(new StatusEffectInstance(ClamorStatusEffects.BLOOD_LOSS, newTime, newBleedLevel));
+				playerEntity.addStatusEffect(new StatusEffectInstance(StatusEffects.BLINDNESS, 3 * 20, 0));
+				playerEntity.damage(BleedDamageSource.BLEED_DAMAGE, 0.0f);
+				playerEntity.getHungerManager().add(-HUNGER_COST, 0.0f);
 			}
 
-			playerEntity.addStatusEffect(new StatusEffectInstance(ClamorStatusEffects.BLOOD_LOSS, newTime, newBleedLevel));
-			playerEntity.addStatusEffect(new StatusEffectInstance(StatusEffects.BLINDNESS, 3 * 20, 0));
-			playerEntity.damage(BleedDamageSource.BLEED_DAMAGE, 1.0f);
-
+			// still gives blood bag in creative
 			ItemStack itemStack = new ItemStack(VampireItems.BLOOD_BAG);
 			if (!playerEntity.getInventory().insertStack(itemStack)) {
 				playerEntity.dropItem(itemStack, false);
@@ -66,7 +74,7 @@ public class SillyStrawItem extends ClamorCuisineItem {
 
 	@Override
 	public int getMaxUseTime(ItemStack stack) {
-		return this.maxUseTime;
+		return this.MAX_USE_TIME;
 	}
 
 	@Override
