@@ -1,6 +1,11 @@
 package huck.clamorcuisine;
 
 import net.fabricmc.api.ModInitializer;
+import net.fabricmc.fabric.api.loot.v2.LootTableEvents;
+import net.minecraft.block.Blocks;
+import net.minecraft.loot.LootPool;
+import net.minecraft.loot.entry.LootTableEntry;
+import net.minecraft.util.Identifier;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -26,5 +31,16 @@ public class ClamorCuisine implements ModInitializer {
 		CarnivoreFood.initializeItems();
 		AnyDietFood.initializeItems();
 		VampireItems.initializeItems();
+
+		LootTableEvents.MODIFY.register((resourceManager, lootManager, id, tableBuilder, source) -> {
+			Identifier herbInjector = new Identifier(ClamorCuisine.MOD_ID, "inject/grass");
+			if (Blocks.GRASS.getLootTableId().equals(id)
+				|| Blocks.FERN.getLootTableId().equals(id)
+				|| Blocks.TALL_GRASS.getLootTableId().equals(id)
+				|| Blocks.LARGE_FERN.getLootTableId().equals(id) ) {
+					LOGGER.info("Hello World!");
+					tableBuilder.pool(LootPool.builder().with(LootTableEntry.builder(herbInjector)).build());
+				}
+		});
 	}
 }
