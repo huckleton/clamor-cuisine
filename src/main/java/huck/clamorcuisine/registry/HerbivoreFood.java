@@ -19,6 +19,8 @@ public class HerbivoreFood {
 	public static final Item APPLE_FRITTER = new Item(new FoodItemSettings(FoodValues.LIGHT_MEAL));
 	public static final Item SWEET_BERRY_PIE = new Item(new FoodItemSettings(FoodValues.MEAL));
 	public static final Item SNOWCONE = new Item(new FoodItemSettings(FoodValues.SNACK, false, true));
+	public static final Item VEGETABLE_SKEWER = new Item(new FoodItemSettings(FoodValues.MEAL));
+	public static final Item NETHER_SKEWER = new Item(new FoodItemSettings(FoodValues.MEAL));
 
 	// Bowl foods
 	public static final Item EGG_SALAD = new BowlContainerFood(new FoodItemSettings(FoodValues.LIGHT_MEAL));
@@ -29,11 +31,16 @@ public class HerbivoreFood {
 	public static void initializeItems() {
 		Registry.register(Registry.ITEM, new Identifier(ClamorCuisine.MOD_ID, "green_herb"), GREEN_HERB);
 		Registry.register(Registry.ITEM, new Identifier(ClamorCuisine.MOD_ID, "purple_herb"), PURPLE_HERB);
+
 		Registry.register(Registry.ITEM, new Identifier(ClamorCuisine.MOD_ID, "beetroot_quiche"), BEETROOT_QUICHE);
 		Registry.register(Registry.ITEM, new Identifier(ClamorCuisine.MOD_ID, "apple_fritter"), APPLE_FRITTER);
 		Registry.register(Registry.ITEM, new Identifier(ClamorCuisine.MOD_ID, "sweet_berry_pie"), SWEET_BERRY_PIE);
 		Registry.register(Registry.ITEM, new Identifier(ClamorCuisine.MOD_ID, "snowcone"), SNOWCONE);
+		Registry.register(Registry.ITEM, new Identifier(ClamorCuisine.MOD_ID, "vegetable_skewer"), VEGETABLE_SKEWER);
+		Registry.register(Registry.ITEM, new Identifier(ClamorCuisine.MOD_ID, "nether_fungus_skewer"), NETHER_SKEWER);
+
 		Registry.register(Registry.ITEM, new Identifier(ClamorCuisine.MOD_ID, "egg_salad"), EGG_SALAD);
+
 		Registry.register(Registry.ITEM, new Identifier(ClamorCuisine.MOD_ID, "sweet_berry_syrup"), SWEET_BERRY_SYRUP);
 	}
 }

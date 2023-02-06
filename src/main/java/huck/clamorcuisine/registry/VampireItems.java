@@ -16,6 +16,9 @@ public class VampireItems {
 	public static final Item SILLY_STRAW = new SillyStrawItem(new FabricItemSettings().maxCount(1).group(ClamorItemGroup.CLAMOR_CUISINE));
 
 	public static final Item BLOOD_BAG = new DrinkableFood(new FoodItemSettings(FoodValues.BLOOD_BAG, true));
+	public static final Item BLACK_PUDDING = new Item(new FoodItemSettings(FoodValues.LIGHT_MEAL, true));
+	public static final Item BLOOD_CUSTARD_PIE = new Item(new FoodItemSettings(FoodValues.LIGHT_MEAL, true));
+	public static final Item BLOOD_STEW = new Item(new FoodItemSettings(FoodValues.MEAL, true));
 
 	public static void initializeItems() {
 		Registry.register(Registry.ITEM, new Identifier(ClamorCuisine.MOD_ID, "silly_straw"), SILLY_STRAW);

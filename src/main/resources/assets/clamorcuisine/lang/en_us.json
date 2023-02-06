@@ -1,31 +1,44 @@
 {
-	"itemGroup.clamorcuisine.food": "Clamor Cuisine",
+
+	// Ingredients
 	"item.clamorcuisine.green_herb": "Green Herb",
 	"item.clamorcuisine.purple_herb": "Purple Herb",
 	"item.clamorcuisine.cheese": "Cheese",
 
+	// Any diet
 	"block.clamorcuisine.cheesecake": "Cheesecake",
 	"block.clamorcuisine.chocolate_cake": "Chocolate Cake",
 
 	"item.clamorcuisine.french_toast": "French Toast",
 	"item.clamorcuisine.deviled_egg": "Deviled Egg",
-	"item.clamorcuisine.donut": "Donut",
 	"item.clamorcuisine.stuffed_mushroom": "Stuffed Mushroom",
 	"item.clamorcuisine.mushroom_omelet": "Mushroom Omelet",
+	"item.clamorcuisine.warped_lasagne": "Warped Lasagne",
+	"item.clamorcuisine.squid_ink_pasta": "Squid Ink Pasta",
+	
+	"item.clamorcuisine.donut": "Donut",
+	"item.clamorcuisine.chocolate_donut": "Chocolate Donut",
+	"item.clamorcuisine.glazed_donut": "Glazed Donut",
+	"item.clamorcuisine.sweet_berry_donut": "Sweet Berry Donut",
 
+	// Vegetarian
 	"item.clamorcuisine.beetroot_quiche": "Beetroot Quiche",
 	"item.clamorcuisine.apple_fritter": "Apple Fritter",
 	"item.clamorcuisine.sweet_berry_pie": "Sweet Berry Pie",
 	"item.clamorcuisine.snowcone": "Snowcone",
 	"item.clamorcuisine.egg_salad": "Egg Salad",
 	"item.clamorcuisine.sweet_berry_syrup": "Sweet Berry Syrup",
+	"item.clamorcuisine.vegetable_skewer": "Veggie Skewer",
+	"item.clamorcuisine.nether_fungus_skewer": "Nether Fungus Skewer",
 
+	// Carnivore
 	"item.clamorcuisine.bacon_and_egg": "Bacon and Egg",
 	"item.clamorcuisine.potato_kebab": "Steak and Potato Skewer",
 	"item.clamorcuisine.stuffed_pumpkin": "Stuffed Pumpkin",
 	"item.clamorcuisine.fish_filet": "Fish Filet",
 	"item.clamorcuisine.lunchables": "Ham and Cheese Crackers",
 	"item.clamorcuisine.shepherds_pie": "Shepherd's Pie",
+	"item.clamorcuisine.seafood_soup": "Seafood Soup",
 
 	"item.clamorcuisine.steak_sandwich": "Steak Sandwich",
 	"item.clamorcuisine.pork_sandwich": "Pork Sandwich",
@@ -34,8 +47,14 @@
 	"item.clamorcuisine.rabbit_sandwich": "Rabbit Sandwich",
 	"item.clamorcuisine.fish_sandwich": "Fish Sandwich",
 
+	// Vampire
 	"item.clamorcuisine.silly_straw": "Silly Straw",
 	"item.clamorcuisine.blood_bag": "Blood Bag",
+	"item.clamorcuisine.black_pudding": "Black Pudding",
+	"item.clamorcuisine.blood_custard_pie": "Blood Custard Pie",
+	"item.clamorcuisine.blood_stew": "Melas Zomos",
 
-	"death.attack.clamor_bleed": "%s was exsanguinated"
+	// Misc
+	"itemGroup.clamorcuisine.food": "Clamor Cuisine",
+	"death.attack.clamor_bleed": "%s was sipped dry"
 }

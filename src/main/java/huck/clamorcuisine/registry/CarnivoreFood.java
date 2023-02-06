@@ -20,6 +20,7 @@ public class CarnivoreFood {
 
 	// Bowl foods
 	public static final Item SHEPHERDS_PIE = new BowlContainerFood(new FoodItemSettings(FoodValues.MEAL, true));
+	public static final Item SEAFOOD_SOUP = new Item(new FoodItemSettings(FoodValues.MEAL));
 
 	// Sandwiches
 	public static final Item STEAK_SANDWICH = new Item(new FoodItemSettings(FoodValues.MEAL, true));
@@ -35,7 +36,10 @@ public class CarnivoreFood {
 		Registry.register(Registry.ITEM, new Identifier(ClamorCuisine.MOD_ID, "stuffed_pumpkin"), STUFFED_PUMPKIN);
 		Registry.register(Registry.ITEM, new Identifier(ClamorCuisine.MOD_ID, "fish_filet"), FISH_FILET);
 		Registry.register(Registry.ITEM, new Identifier(ClamorCuisine.MOD_ID, "lunchables"), LUNCHABLES);
+		
 		Registry.register(Registry.ITEM, new Identifier(ClamorCuisine.MOD_ID, "shepherds_pie"), SHEPHERDS_PIE);
+		Registry.register(Registry.ITEM, new Identifier(ClamorCuisine.MOD_ID, "seafood_soup"), SEAFOOD_SOUP);
+
 		Registry.register(Registry.ITEM, new Identifier(ClamorCuisine.MOD_ID, "steak_sandwich"), STEAK_SANDWICH);
 		Registry.register(Registry.ITEM, new Identifier(ClamorCuisine.MOD_ID, "pork_sandwich"), PORK_SANDWICH);
 		Registry.register(Registry.ITEM, new Identifier(ClamorCuisine.MOD_ID, "mutton_sandwich"), MUTTON_SANDWICH);
