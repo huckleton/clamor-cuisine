@@ -11,14 +11,14 @@ import net.minecraft.util.registry.Registry;
 
 public class HerbivoreFood {
 	// Ingredience
-	public static final Item GREEN_HERB = new Item(new FoodItemSettings(FoodValues.JUNK_FOOD));
-	public static final Item PURPLE_HERB = new Item(new FoodItemSettings(FoodValues.JUNK_FOOD));
+	public static final Item GREEN_HERB = new Item(new FoodItemSettings(FoodValues.JUNK_FOOD, false, true));
+	public static final Item PURPLE_HERB = new Item(new FoodItemSettings(FoodValues.JUNK_FOOD, false, true));
 
 	// General
 	public static final Item BEETROOT_QUICHE = new Item(new FoodItemSettings(FoodValues.LIGHT_MEAL));
 	public static final Item APPLE_FRITTER = new Item(new FoodItemSettings(FoodValues.LIGHT_MEAL));
 	public static final Item SWEET_BERRY_PIE = new Item(new FoodItemSettings(FoodValues.MEAL));
-	public static final Item SNOWCONE = new Item(new FoodItemSettings(FoodValues.SNACK));
+	public static final Item SNOWCONE = new Item(new FoodItemSettings(FoodValues.SNACK, false, true));
 
 	// Bowl foods
 	public static final Item EGG_SALAD = new BowlContainerFood(new FoodItemSettings(FoodValues.LIGHT_MEAL));

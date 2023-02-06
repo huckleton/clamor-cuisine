@@ -12,22 +12,22 @@ import net.minecraft.util.registry.Registry;
 public class CarnivoreFood {
 
 	// General
-	public static final Item BACON_AND_EGG = new Item(new FoodItemSettings(FoodValues.LIGHT_MEAL));
-	public static final Item POTATO_KEBAB = new StickContainerFood(new FoodItemSettings(FoodValues.LIGHT_MEAL));
-	public static final Item STUFFED_PUMPKIN = new Item(new FoodItemSettings(FoodValues.LARGE_MEAL));
-	public static final Item FISH_FILET = new Item(new FoodItemSettings(FoodValues.MEAL));
-	public static final Item LUNCHABLES = new Item(new FoodItemSettings(FoodValues.SNACK));
+	public static final Item BACON_AND_EGG = new Item(new FoodItemSettings(FoodValues.LIGHT_MEAL, true));
+	public static final Item POTATO_KEBAB = new StickContainerFood(new FoodItemSettings(FoodValues.LIGHT_MEAL, true));
+	public static final Item STUFFED_PUMPKIN = new Item(new FoodItemSettings(FoodValues.LARGE_MEAL, true));
+	public static final Item FISH_FILET = new Item(new FoodItemSettings(FoodValues.MEAL, true));
+	public static final Item LUNCHABLES = new Item(new FoodItemSettings(FoodValues.SNACK, true));
 
 	// Bowl foods
-	public static final Item SHEPHERDS_PIE = new BowlContainerFood(new FoodItemSettings(FoodValues.MEAL));
+	public static final Item SHEPHERDS_PIE = new BowlContainerFood(new FoodItemSettings(FoodValues.MEAL, true));
 
 	// Sandwiches
-	public static final Item STEAK_SANDWICH = new Item(new FoodItemSettings(FoodValues.MEAL));
-	public static final Item PORK_SANDWICH = new Item(new FoodItemSettings(FoodValues.MEAL));
-	public static final Item MUTTON_SANDWICH = new Item(new FoodItemSettings(FoodValues.MEAL));
-	public static final Item CHICKEN_SANDWICH = new Item(new FoodItemSettings(FoodValues.MEAL));
-	public static final Item RABBIT_SANDWICH = new Item(new FoodItemSettings(FoodValues.MEAL));
-	public static final Item FISH_SANDWICH = new Item(new FoodItemSettings(FoodValues.MEAL));
+	public static final Item STEAK_SANDWICH = new Item(new FoodItemSettings(FoodValues.MEAL, true));
+	public static final Item PORK_SANDWICH = new Item(new FoodItemSettings(FoodValues.MEAL, true));
+	public static final Item MUTTON_SANDWICH = new Item(new FoodItemSettings(FoodValues.MEAL, true));
+	public static final Item CHICKEN_SANDWICH = new Item(new FoodItemSettings(FoodValues.MEAL, true));
+	public static final Item RABBIT_SANDWICH = new Item(new FoodItemSettings(FoodValues.MEAL, true));
+	public static final Item FISH_SANDWICH = new Item(new FoodItemSettings(FoodValues.MEAL, true));
 	
 	public static void initializeItems() {
 		Registry.register(Registry.ITEM, new Identifier(ClamorCuisine.MOD_ID, "bacon_and_egg"), BACON_AND_EGG);

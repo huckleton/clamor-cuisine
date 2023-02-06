@@ -1,13 +1,13 @@
 package huck.clamorcuisine.shared;
 
+import huck.clamorcuisine.registry.ClamorItemGroup;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
-import net.minecraft.item.ItemGroup;
 
 public class FoodItemSettings extends FabricItemSettings {
 	public FoodItemSettings(FoodValues foodValues, boolean meat, boolean snack) {
 		super();
 		this.food(FoodValues.generateComponent(foodValues, meat, snack));
-		this.group(ItemGroup.FOOD);
+		this.group(ClamorItemGroup.CLAMOR_CUISINE);
 	}
 
 	public FoodItemSettings(FoodValues foodValues) {

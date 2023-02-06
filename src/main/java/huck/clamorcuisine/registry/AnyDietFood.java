@@ -9,12 +9,12 @@ import net.minecraft.util.registry.Registry;
 
 public class AnyDietFood {
 	// Ingredience
-	public static final Item CHEESE = new Item(new FoodItemSettings(FoodValues.SNACK));
+	public static final Item CHEESE = new Item(new FoodItemSettings(FoodValues.SNACK, true, true));
 
 	// General
 	public static final Item FRENCH_TOAST = new Item(new FoodItemSettings(FoodValues.LIGHT_MEAL));
 	public static final Item STUFFED_MUSHROOM = new Item(new FoodItemSettings(FoodValues.LIGHT_MEAL));
-	public static final Item DEVILED_EGG = new Item(new FoodItemSettings(FoodValues.SNACK));
+	public static final Item DEVILED_EGG = new Item(new FoodItemSettings(FoodValues.SNACK, false, true));
 	public static final Item DONUT = new Item(new FoodItemSettings(FoodValues.SNACK));
 	public static final Item MUSHROOM_OMELET = new Item(new FoodItemSettings(FoodValues.LIGHT_MEAL));
 

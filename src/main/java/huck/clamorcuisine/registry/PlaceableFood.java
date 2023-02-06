@@ -7,14 +7,13 @@ import net.minecraft.block.Block;
 import net.minecraft.block.CakeBlock;
 import net.minecraft.block.Material;
 import net.minecraft.item.BlockItem;
-import net.minecraft.item.ItemGroup;
 import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 
 public class PlaceableFood {
 	private static FabricBlockSettings CakeSettings = FabricBlockSettings.of(Material.CAKE).ticksRandomly().sounds(BlockSoundGroup.WOOL).nonOpaque();
-	private static FabricItemSettings CakeItemSettings = new FabricItemSettings().group(ItemGroup.FOOD).maxCount(1);
+	private static FabricItemSettings CakeItemSettings = new FabricItemSettings().group(ClamorItemGroup.CLAMOR_CUISINE).maxCount(1);
 
 	public static final Block CHEESECAKE = new CakeBlock(CakeSettings);
 	public static final Block CHOCOLATE_CAKE = new CakeBlock(CakeSettings);
