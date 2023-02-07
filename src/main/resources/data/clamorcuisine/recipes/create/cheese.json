@@ -1,0 +1,14 @@
+{
+  "type": "create:compacting",
+  "ingredients": [
+    {
+      "fluidTag": "c:milk",
+      "amount": 40500
+    }
+  ],
+  "results": [
+    {
+      "item": "clamorcuisine:cheese"
+    }
+  ]
+}

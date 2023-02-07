@@ -9,7 +9,7 @@ import net.minecraft.util.registry.Registry;
 
 public class AnyDietFood {
 	// Ingredience
-	public static final Item CHEESE = new Item(new FoodItemSettings(FoodValues.SNACK, true, true));
+	public static final Item CHEESE = new Item(new FoodItemSettings(FoodValues.SMALL_SNACK, true));
 
 	// General
 	public static final Item FRENCH_TOAST = new Item(new FoodItemSettings(FoodValues.LIGHT_MEAL));
@@ -21,9 +21,9 @@ public class AnyDietFood {
 
 	// Donuts
 	public static final Item DONUT = new Item(new FoodItemSettings(FoodValues.SMALL_SNACK));
-	public static final Item CHOCOLATE_DONUT = new Item(new FoodItemSettings(FoodValues.INGREDIENT_DONUT));
-	public static final Item GLAZED_DONUT = new Item(new FoodItemSettings(FoodValues.INGREDIENT_DONUT));
-	public static final Item SWEET_BERRY_DONUT = new Item(new FoodItemSettings(FoodValues.INGREDIENT_DONUT));
+	public static final Item CHOCOLATE_DONUT = new Item(new FoodItemSettings(FoodValues.SPECIAL_DONUT));
+	public static final Item GLAZED_DONUT = new Item(new FoodItemSettings(FoodValues.SPECIAL_DONUT));
+	public static final Item SWEET_BERRY_DONUT = new Item(new FoodItemSettings(FoodValues.SPECIAL_DONUT));
 
 	public static void initializeItems() {
 		Registry.register(Registry.ITEM, new Identifier(ClamorCuisine.MOD_ID, "cheese"), CHEESE);
