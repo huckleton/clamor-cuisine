@@ -3,6 +3,7 @@ package huck.clamorcuisine.registry;
 import huck.clamorcuisine.ClamorCuisine;
 import huck.clamorcuisine.items.BottleContainerFood;
 import huck.clamorcuisine.items.BowlContainerFood;
+import huck.clamorcuisine.items.StickContainerFood;
 import huck.clamorcuisine.shared.FoodItemSettings;
 import huck.clamorcuisine.shared.FoodValues;
 import net.minecraft.item.Item;
@@ -19,8 +20,8 @@ public class HerbivoreFood {
 	public static final Item APPLE_FRITTER = new Item(new FoodItemSettings(FoodValues.LIGHT_MEAL));
 	public static final Item SWEET_BERRY_PIE = new Item(new FoodItemSettings(FoodValues.MEAL));
 	public static final Item SNOWCONE = new Item(new FoodItemSettings(FoodValues.SNACK, false, true));
-	public static final Item VEGETABLE_SKEWER = new Item(new FoodItemSettings(FoodValues.MEAL));
-	public static final Item NETHER_SKEWER = new Item(new FoodItemSettings(FoodValues.MEAL));
+	public static final Item VEGETABLE_SKEWER = new StickContainerFood(new FoodItemSettings(FoodValues.MEAL));
+	public static final Item NETHER_SKEWER = new StickContainerFood(new FoodItemSettings(FoodValues.MEAL));
 
 	// Bowl foods
 	public static final Item EGG_SALAD = new BowlContainerFood(new FoodItemSettings(FoodValues.LIGHT_MEAL));

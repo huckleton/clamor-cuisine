@@ -20,7 +20,7 @@ public class CarnivoreFood {
 
 	// Bowl foods
 	public static final Item SHEPHERDS_PIE = new BowlContainerFood(new FoodItemSettings(FoodValues.MEAL, true));
-	public static final Item SEAFOOD_SOUP = new Item(new FoodItemSettings(FoodValues.MEAL));
+	public static final Item SEAFOOD_SOUP = new BowlContainerFood(new FoodItemSettings(FoodValues.MEAL));
 
 	// Sandwiches
 	public static final Item STEAK_SANDWICH = new Item(new FoodItemSettings(FoodValues.MEAL, true));

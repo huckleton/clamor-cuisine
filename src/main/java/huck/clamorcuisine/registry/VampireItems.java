@@ -1,6 +1,7 @@
 package huck.clamorcuisine.registry;
 
 import huck.clamorcuisine.ClamorCuisine;
+import huck.clamorcuisine.items.BowlContainerFood;
 import huck.clamorcuisine.items.DrinkableFood;
 import huck.clamorcuisine.items.SillyStrawItem;
 import huck.clamorcuisine.shared.ClamorItemGroup;
@@ -18,7 +19,7 @@ public class VampireItems {
 	public static final Item BLOOD_BAG = new DrinkableFood(new FoodItemSettings(FoodValues.BLOOD_BAG, true));
 	public static final Item BLACK_PUDDING = new Item(new FoodItemSettings(FoodValues.LIGHT_MEAL, true));
 	public static final Item BLOOD_CUSTARD_PIE = new Item(new FoodItemSettings(FoodValues.LIGHT_MEAL, true));
-	public static final Item BLOOD_STEW = new Item(new FoodItemSettings(FoodValues.MEAL, true));
+	public static final Item BLOOD_STEW = new BowlContainerFood(new FoodItemSettings(FoodValues.MEAL, true));
 	public static final Item BERRY_CORDIAL = new Item(new FoodItemSettings(FoodValues.SNACK, true, true));
 
 	public static void initializeItems() {
