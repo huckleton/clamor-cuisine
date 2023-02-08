@@ -20,8 +20,8 @@ public class HerbivoreFood {
 	public static final Item APPLE_FRITTER = new Item(new FoodItemSettings(FoodValues.LIGHT_MEAL));
 	public static final Item SWEET_BERRY_PIE = new Item(new FoodItemSettings(FoodValues.MEAL));
 	public static final Item SNOWCONE = new Item(new FoodItemSettings(FoodValues.SNACK, false, true));
-	public static final Item VEGETABLE_SKEWER = new StickContainerFood(new FoodItemSettings(FoodValues.MEAL));
-	public static final Item NETHER_SKEWER = new StickContainerFood(new FoodItemSettings(FoodValues.MEAL));
+	public static final Item VEGETABLE_SKEWER = new StickContainerFood(new FoodItemSettings(FoodValues.LIGHT_MEAL));
+	public static final Item NETHER_SKEWER = new StickContainerFood(new FoodItemSettings(FoodValues.LIGHT_MEAL));
 
 	// Bowl foods
 	public static final Item EGG_SALAD = new BowlContainerFood(new FoodItemSettings(FoodValues.LIGHT_MEAL));

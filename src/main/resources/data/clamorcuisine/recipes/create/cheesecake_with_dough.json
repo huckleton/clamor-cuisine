@@ -18,9 +18,9 @@
     }
   },
   "pattern": [
-    "YZ ",
-    "W#W",
-    " X "
+    "YZ",
+    "WW",
+    "#X"
   ],
   "result": {
     "count": 1,
