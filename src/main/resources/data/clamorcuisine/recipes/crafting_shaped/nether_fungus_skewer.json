@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "#": {
+      "item": "minecraft:stick"
+    },
+    "X": {
+      "item": "minecraft:crimson_fungus"
+    },
+    "Y": {
+      "item": "minecraft:warped_fungus"
+    }
+  },
+  "pattern": [
+    "  Y",
+    " X ",
+    "#  "
+  ],
+  "result": {
+    "count": 1,
+    "item": "clamorcuisine:nether_fungus_skewer"
+  }
+}

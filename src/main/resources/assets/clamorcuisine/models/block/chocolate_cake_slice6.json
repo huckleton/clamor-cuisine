@@ -1,0 +1,10 @@
+{
+  "parent": "minecraft:block/cake_slice6",
+  "textures": {
+    "particle": "clamorcuisine:block/chocolate_cake_side",
+    "bottom": "clamorcuisine:block/chocolate_cake_bottom",
+    "top": "clamorcuisine:block/chocolate_cake_top",
+    "side": "clamorcuisine:block/chocolate_cake_side",
+    "inside": "clamorcuisine:block/chocolate_cake_inner"
+  }
+}

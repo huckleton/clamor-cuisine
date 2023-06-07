@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:pumpkin"
+    },
+    {
+      "tag": "c:cooked_meat"
+    },
+    {
+      "tag": "c:mushrooms"
+    },
+    {
+      "item": "clamorcuisine:purple_herb"
+    },
+    {
+      "item": "minecraft:carrot"
+    }
+  ],
+  "result": {
+    "item": "clamorcuisine:stuffed_pumpkin",
+    "count": 1
+  }
+}
+

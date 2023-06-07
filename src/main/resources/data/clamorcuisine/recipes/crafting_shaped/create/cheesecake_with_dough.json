@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "#": {
+      "item": "minecraft:egg"
+    },
+    "W": {
+      "item": "minecraft:sugar"
+    },
+    "X": {
+      "item": "create:dough"
+    },
+    "Y": {
+      "item": "clamorcuisine:cheese"
+    },
+    "Z": {
+      "item": "clamorcuisine:sweet_berry_syrup"
+    }
+  },
+  "pattern": [
+    "YZ",
+    "WW",
+    "#X"
+  ],
+  "result": {
+    "count": 1,
+    "item": "clamorcuisine:cheesecake"
+  }
+}
+

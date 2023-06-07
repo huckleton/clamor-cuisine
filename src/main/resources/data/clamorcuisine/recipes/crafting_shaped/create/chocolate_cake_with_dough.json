@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "#": {
+      "item": "minecraft:egg"
+    },
+    "W": {
+      "item": "create:bar_of_chocolate"
+    },
+    "X": {
+      "item": "create:dough"
+    }
+  },
+  "pattern": [
+    "W",
+    "#",
+    "X"
+  ],
+  "result": {
+    "count": 1,
+    "item": "clamorcuisine:chocolate_cake"
+  }
+}
+

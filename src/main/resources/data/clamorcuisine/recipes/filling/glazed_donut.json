@@ -1,0 +1,17 @@
+{
+  "type": "create:filling",
+  "ingredients": [
+    {
+      "fluidTag": "c:milk",
+      "amount": 27000
+    },
+    {
+      "item": "clamorcuisine:donut"
+    }
+  ],
+  "results": [
+    {
+      "item": "clamorcuisine:glazed_donut"
+    }
+  ]
+}

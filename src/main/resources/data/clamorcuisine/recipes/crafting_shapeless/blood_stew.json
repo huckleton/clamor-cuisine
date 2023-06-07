@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:porkchop"
+    },
+    {
+      "item": "minecraft:bowl"
+    },
+    {
+      "item": "clamorcuisine:blood_bag"
+    },
+    {
+      "item": "clamorcuisine:purple_herb"
+    }
+  ],
+  "result": {
+    "item": "clamorcuisine:blood_stew",
+    "count": 1
+  }
+}
+

@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:wheat"
+    },
+    {
+      "item": "minecraft:wheat"
+    },
+    {
+      "item": "minecraft:wheat"
+    },
+    {
+      "item": "clamorcuisine:green_herb"
+    },
+    {
+      "item": "minecraft:warped_fungus"
+    },
+    {
+      "item": "clamorcuisine:cheese"
+    }
+  ],
+  "result": {
+    "item": "clamorcuisine:warped_lasagne",
+    "count": 1
+  }
+}
+

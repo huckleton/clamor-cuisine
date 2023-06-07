@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    {"id":"clamorcuisine:apple_fritter","required":false},
+    {"id":"#clamorcuisine:donuts","required":false},
+    {"id":"#clamorcuisine:herbs","required":false},
+    {"id":"#clamorcuisine:cupcakes","required":false},
+    {"id":"clamorcuisine:marshmallow","required":false}
+  ]
+}

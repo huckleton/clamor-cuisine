@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "clamorcuisine:purple_herb"
+    },
+    {
+      "item": "minecraft:wheat"
+    },
+    {
+      "item": "clamorcuisine:blood_bag"
+    }
+  ],
+  "result": {
+    "item": "clamorcuisine:black_pudding",
+    "count": 1
+  }
+}
+

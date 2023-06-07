@@ -1,0 +1,25 @@
+{
+	"replace": false,
+	"values": [
+		"clamorcuisine:bacon_and_egg",
+		"clamorcuisine:potato_kebab",
+		"clamorcuisine:stuffed_pumpkin",
+		"clamorcuisine:fish_filet",
+		"clamorcuisine:lunchables",
+				
+		"clamorcuisine:shepherds_pie",
+		"clamorcuisine:seafood_soup",
+
+		"clamorcuisine:steak_sandwich",
+		"clamorcuisine:pork_sandwich",
+		"clamorcuisine:mutton_sandwich",
+		"clamorcuisine:chicken_sandwich",
+		"clamorcuisine:rabbit_sandwich",
+		"clamorcuisine:fish_sandwich",
+		
+		"clamorcuisine:blood_bag",
+		"clamorcuisine:black_pudding",
+		"clamorcuisine:blood_custard_pie",
+		"clamorcuisine:blood_stew"
+	]
+}

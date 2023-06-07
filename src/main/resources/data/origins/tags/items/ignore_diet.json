@@ -1,0 +1,21 @@
+{
+	"replace": false,
+	"values": [
+		"clamorcuisine:cheese",
+		"clamorcuisine:french_toast",
+		"clamorcuisine:stuffed_mushroom",
+		"clamorcuisine:deviled_egg",
+		"clamorcuisine:mushroom_omelet",
+		"clamorcuisine:warped_lasagne",
+		"clamorcuisine:squid_ink_pasta",
+		
+		"clamorcuisine:donut",
+		"clamorcuisine:chocolate_donut",
+		"clamorcuisine:glazed_donut",
+		"clamorcuisine:sweet_berry_donut",
+
+		"clamorcuisine:marshmallow",
+		"clamorcuisine:marshmallow_on_a_stick",
+		"clamorcuisine:roasted_marshmallow_on_a_stick"
+	]
+}

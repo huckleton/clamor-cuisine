@@ -1,0 +1,72 @@
+{
+
+	// Ingredients
+	"item.clamorcuisine.green_herb": "Green Herb",
+	"item.clamorcuisine.purple_herb": "Purple Herb",
+	"item.clamorcuisine.cheese": "Cheese",
+
+	// Any diet
+	"block.clamorcuisine.cheesecake": "Cheesecake",
+	"block.clamorcuisine.chocolate_cake": "Chocolate Cake",
+	"block.clamorcuisine.carrot_cake": "Carrot Cake",
+
+	"item.clamorcuisine.french_toast": "French Toast",
+	"item.clamorcuisine.deviled_egg": "Deviled Egg",
+	"item.clamorcuisine.stuffed_mushroom": "Stuffed Mushroom",
+	"item.clamorcuisine.mushroom_omelet": "Mushroom Omelet",
+	"item.clamorcuisine.warped_lasagne": "Warped Lasagne",
+	"item.clamorcuisine.squid_ink_pasta": "Squid Ink Pasta",
+	
+	"item.clamorcuisine.donut": "Donut",
+	"item.clamorcuisine.chocolate_donut": "Chocolate Donut",
+	"item.clamorcuisine.glazed_donut": "Glazed Donut",
+	"item.clamorcuisine.sweet_berry_donut": "Jelly Donut",
+
+	"item.clamorcuisine.marshmallow": "Marshmallow",
+	"item.clamorcuisine.marshmallow_on_a_stick": "Marshmallow on a Stick",
+	"item.clamorcuisine.roasted_marshmallow_on_a_stick": "Roasted Marshmallow on a Stick",
+
+	// Vegetarian
+	"item.clamorcuisine.beetroot_quiche": "Beetroot Quiche",
+	"item.clamorcuisine.apple_fritter": "Apple Fritter",
+	"item.clamorcuisine.sweet_berry_pie": "Sweet Berry Pie",
+	"item.clamorcuisine.snowcone": "Snow Cone",
+	"item.clamorcuisine.egg_salad": "Egg Salad",
+	"item.clamorcuisine.sweet_berry_syrup": "Sweet Berry Syrup",
+	"item.clamorcuisine.vegetable_skewer": "Veggie Skewer",
+	"item.clamorcuisine.nether_fungus_skewer": "Nether Fungus Skewer",
+
+	"item.clamorcuisine.cupcake": "Cupcake",
+	"item.clamorcuisine.carrot_cupcake": "Carrot Cupcake",
+	"item.clamorcuisine.chocolate_cupcake": "Chocolate Cupcake",
+	"item.clamorcuisine.toffee_cupcake": "Toffee Cupcake",
+	"item.clamorcuisine.sweet_berry_cupcake": "Sweet Berry Cupcake",
+
+	// Carnivore
+	"item.clamorcuisine.bacon_and_egg": "Bacon and Egg",
+	"item.clamorcuisine.potato_kebab": "Steak and Potato Skewer",
+	"item.clamorcuisine.stuffed_pumpkin": "Stuffed Pumpkin",
+	"item.clamorcuisine.fish_filet": "Fish Filet",
+	"item.clamorcuisine.lunchables": "Ham and Cheese Cracker",
+	"item.clamorcuisine.shepherds_pie": "Shepherd's Pie",
+	"item.clamorcuisine.seafood_soup": "Seafood Soup",
+
+	"item.clamorcuisine.steak_sandwich": "Steak Sandwich",
+	"item.clamorcuisine.pork_sandwich": "Pork Sandwich",
+	"item.clamorcuisine.mutton_sandwich": "Mutton Sandwich",
+	"item.clamorcuisine.chicken_sandwich": "Chicken Sandwich",
+	"item.clamorcuisine.rabbit_sandwich": "Rabbit Sandwich",
+	"item.clamorcuisine.fish_sandwich": "Fish Sandwich",
+
+	// Vampire
+	"item.clamorcuisine.silly_straw": "Silly Straw",
+	"item.clamorcuisine.blood_bag": "Blood Bag",
+	"item.clamorcuisine.black_pudding": "Black Pudding",
+	"item.clamorcuisine.blood_custard_pie": "Blood Custard Pie",
+	"item.clamorcuisine.blood_stew": "Mélas Zōmós",
+	"item.clamorcuisine.berry_cordial": "Berry Cordial",
+
+	// Misc
+	"itemGroup.clamorcuisine.food": "Clamor Cuisine",
+	"death.attack.clamor_bleed": "%s was sipped dry"
+}

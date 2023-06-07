@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "#": {
+      "item": "minecraft:stick"
+    },
+    "X": {
+      "item": "minecraft:beetroot"
+    },
+    "Y": {
+      "item": "minecraft:carrot"
+    }
+  },
+  "pattern": [
+    "  X",
+    " Y ",
+    "#  "
+  ],
+  "result": {
+    "count": 1,
+    "item": "clamorcuisine:vegetable_skewer"
+  }
+}

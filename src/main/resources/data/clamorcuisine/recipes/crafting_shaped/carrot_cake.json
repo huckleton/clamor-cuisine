@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "#": {
+      "item": "minecraft:egg"
+    },
+    "W": {
+      "item": "minecraft:sugar"
+    },
+    "X": {
+      "item": "minecraft:wheat"
+    },
+    "Y": {
+      "item": "clamorcuisine:carrot"
+    },
+    "Z": {
+      "item": "minecraft:milk_bucket"
+    }
+  },
+  "pattern": [
+    "YZY",
+    "W#W",
+    "XXX"
+  ],
+  "result": {
+    "count": 1,
+    "item": "clamorcuisine:carrot_cake"
+  }
+}
+

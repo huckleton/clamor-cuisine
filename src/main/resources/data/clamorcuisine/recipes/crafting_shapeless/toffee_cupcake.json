@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:wheat"
+    },
+    {
+      "item": "minecraft:wheat"
+    },
+    {
+      "item": "minecraft:egg"
+    },
+    {
+      "item": "clamorcuisine:caramel"
+    }
+  ],
+  "result": {
+    "item": "clamorcuisine:toffee_cupcake",
+    "count": 2
+  }
+}
+

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:sweet_berries"
+    },
+    {
+      "item": "clamorcuisine:donut"
+    }
+  ],
+  "result": {
+    "item": "clamorcuisine:sweet_berry_donut",
+    "count": 1
+  }
+}
+
