@@ -28,7 +28,6 @@ public class HerbivoreFood {
 	public static final Item CARROT_CUPCAKE = new Item(new FoodItemSettings(FoodValues.SNACK));
 	public static final Item CHOCOLATE_CUPCAKE = new Item(new FoodItemSettings(FoodValues.SNACK));
 	public static final Item TOFFEE_CUPCAKE = new Item(new FoodItemSettings(FoodValues.SNACK));
-	public static final Item SWEET_BERRY_CUPCAKE = new Item(new FoodItemSettings(FoodValues.SNACK));
 
 	// Bowl foods
 	public static final Item EGG_SALAD = new BowlContainerFood(new FoodItemSettings(FoodValues.LIGHT_MEAL));
@@ -51,7 +50,6 @@ public class HerbivoreFood {
 		Registry.register(Registry.ITEM, new Identifier(ClamorCuisine.MOD_ID, "carrot_cupcake"), CARROT_CUPCAKE);
 		Registry.register(Registry.ITEM, new Identifier(ClamorCuisine.MOD_ID, "chocolate_cupcake"), CHOCOLATE_CUPCAKE);
 		Registry.register(Registry.ITEM, new Identifier(ClamorCuisine.MOD_ID, "toffee_cupcake"), TOFFEE_CUPCAKE);
-		Registry.register(Registry.ITEM, new Identifier(ClamorCuisine.MOD_ID, "sweet_berry_cupcake"), SWEET_BERRY_CUPCAKE);
 
 		Registry.register(Registry.ITEM, new Identifier(ClamorCuisine.MOD_ID, "egg_salad"), EGG_SALAD);
 
