@@ -19,7 +19,7 @@ public class AnyDietFood {
 	public static final Item DEVILED_EGG = new Item(new FoodItemSettings(FoodValues.SNACK, false, true));
 	public static final Item MUSHROOM_OMELET = new Item(new FoodItemSettings(FoodValues.LIGHT_MEAL));
 	public static final Item WARPED_LASAGNE = new Item(new FoodItemSettings(FoodValues.MEAL));
-	public static final Item SQUID_INK_PASTA = new Item(new FoodItemSettings(FoodValues.MEAL));
+	public static final Item SQUID_INK_PASTA = new BowlContainerFood(new FoodItemSettings(FoodValues.MEAL));
 
 	// Donuts
 	public static final Item DONUT = new Item(new FoodItemSettings(FoodValues.SMALL_SNACK));
