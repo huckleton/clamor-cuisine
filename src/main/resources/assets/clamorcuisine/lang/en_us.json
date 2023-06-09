@@ -67,5 +67,6 @@
 
 	// Misc
 	"itemGroup.clamorcuisine.food": "Clamor Cuisine",
-	"death.attack.clamor_bleed": "%s was sipped dry"
+	"death.attack.clamor_bleed": "%s was sipped dry",
+	"fluid.clamorcuisine.blood": "Blood" // for supplementaries
 }

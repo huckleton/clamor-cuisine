@@ -1,0 +1,21 @@
+{
+  "color": "#A0022A",
+  "containers": [
+    {
+      "filled": [
+        "clamorcuisine:sweet_berry_syrup"
+      ],
+      "empty": "minecraft:glass_bottle",
+      "capacity": 1
+    }
+  ],
+  "flowing_texture": "moonlight:soft_fluids/potion_flow",
+  "food": {
+    "divider": 1,
+    "item": "clamorcuisine:sweet_berry_syrup"
+  },
+  "from_mod": "clamorcuisine",
+  "still_texture": "moonlight:soft_fluids/honey_liquid",
+  "translation_key": "item.clamorcuisine.sweet_berry_syrup",
+  "use_texture_from": "create:honey"
+}

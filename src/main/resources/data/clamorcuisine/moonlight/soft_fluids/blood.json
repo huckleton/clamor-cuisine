@@ -1,0 +1,20 @@
+{
+  "color": "#870509",
+  "containers": [
+    {
+      "filled": [
+        "clamorcuisine:blood_bag"
+      ],
+      "empty": "minecraft:air",
+      "capacity": 1
+    }
+  ],
+  "flowing_texture": "moonlight:soft_fluids/potion_flow",
+  "food": {
+    "divider": 1,
+    "item": "clamorcuisine:blood_bag"
+  },
+  "from_mod": "clamorcuisine",
+  "still_texture": "moonlight:soft_fluids/potion_still",
+  "translation_key": "fluid.clamorcuisine.blood"
+}
